@@ -36,7 +36,7 @@ Here is the file structure
 ## Flow Repository
 
 ```mermaid
-flowchart LR;
+graph LR;
     Face Detection-->Liveness Detection;
     Liveness Detection-->Mask Detection;
     Mask Detection-->Deepface Recognition;
