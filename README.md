@@ -9,6 +9,18 @@ This repository contains a comprehensive Face Recognition System with additional
 Liveness Detection Model : [livenessDetection](https://github.com/AJustiago/Liveness-Detection)
 Mask Detection Model     : [maskDetection](https://github.com/AJustiago/Mask-Detection)
 
+## Flow Repository
+
+```mermaid
+flowchart TD;
+    A[Face Detection]-->B[Liveness Detection];
+    B-->C[Mask Detection];
+    C-->D[Deepface Recognition];
+    D-->E{Comparing Database};
+    E-->|True| F[Result];
+    E-->|False| G[Fill Form];
+```
+
 ## File Structure
 Here is the file structure 
 ```bash
@@ -32,17 +44,6 @@ Here is the file structure
     |-env
     |-main.py
     |-nginx.conf
-```
-## Flow Repository
-
-```mermaid
-flowchart TD;
-    A[Face Detection]-->B[Liveness Detection];
-    B-->C[Mask Detection];
-    C-->D[Deepface Recognition];
-    D-->E{Comparing Database};
-    E-->|True| F[Result];
-    E-->|False| G[Fill Form];
 ```
 
 ## Installation
