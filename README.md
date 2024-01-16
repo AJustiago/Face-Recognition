@@ -41,8 +41,8 @@ flowchart TD;
     B-->C[Mask Detection];
     C-->D[Deepface Recognition];
     D-->E{Comparing Database};
-    E-->|One| F[Result];
-    E-->|Two| G[Fill Form];
+    E-->|True| F[Result];
+    E-->|False| G[Fill Form];
 ```
 
 ## Installation
