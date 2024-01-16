@@ -61,6 +61,10 @@ To set up the required environment, follow these steps:
     ```
     This command will install all the necessary Python packages specified in the [requirements](https://github.com/AJustiago/Face-Recognition/blob/main/requirements.txt) file.
 
+## How To Run
+
+Run this [main.py](https://github.com/AJustiago/Face-Recognition/blob/main/main.py) file.
+this repository consists of **API** using **Python Flask** at **0.0.0.0:7375** .
 
 ## Acknowledge
 
