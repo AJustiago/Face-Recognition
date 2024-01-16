@@ -33,6 +33,12 @@ Here is the file structure
     |-main.py
     |-nginx.conf
 ```
+## Flow Repository
+
+```mermaid
+flowchart LR
+    Face Detection --> Liveness Detection --> Mask Detection --> Deepface Recognition --> Comparing Database --> Result or Fill Form
+```
 
 ## Installation
 
