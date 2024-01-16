@@ -61,6 +61,20 @@ To set up the required environment, follow these steps:
     ```
     This command will install all the necessary Python packages specified in the [requirements](https://github.com/AJustiago/Face-Recognition/blob/main/requirements.txt) file.
 
+3. Configure the project:
+
+    Create a configuration file named `.env` and provide your enviroment database and path credentials:
+
+    ```bash
+        db_host=
+        db_database=
+        db_user=
+        db_password=
+
+        path_localdb=
+        path_upload=
+    ```
+
 ## How To Run
 
 Run this [main.py](https://github.com/AJustiago/Face-Recognition/blob/main/main.py) file.
