@@ -36,13 +36,13 @@ Here is the file structure
 ## Flow Repository
 
 ```mermaid
-graph LR;
-    Face Detection-->Liveness Detection;
-    Liveness Detection-->Mask Detection;
-    Mask Detection-->Deepface Recognition;
-    Deepface Recognition-->Comparing Database;
-    Comparing Database-->Result;
-    Comparing Database-->Fill Form;
+flowchart TD;
+    A[Face Detection]-->B[Liveness Detection];
+    B-->C[Mask Detection];
+    C-->D[Deepface Recognition];
+    D-->E{Comparing Database};
+    E-->|One| F[Result];
+    E-->|Two| G[Fill Form];
 ```
 
 ## Installation
