@@ -6,8 +6,8 @@ This project utilizes facial recognition techniques, including liveness detectio
 
 This repository contains a comprehensive Face Recognition System with additional features such as liveness detection, mask detection, and face detection. The system utilizes the MiniVGG architecture for liveness and mask detection, the ResNet-based face detector (res10_300x300_ssd_iter_140000.caffemodel), and DeepFace Facebook for face recognition. The system is integrated with a PostgreSQL database for efficient data storage and retrieval.
 
-Liveness Detection Model : [livenessDetection](https://github.com/AJustiago/Liveness-Detection)
-Mask Detection Model     : [maskDetection](https://github.com/AJustiago/Mask-Detection)
+- Liveness Detection Model : [Github to Liveness Detection](https://github.com/AJustiago/Liveness-Detection)
+- Mask Detection Model     : [Github to Mask Detection](https://github.com/AJustiago/Mask-Detection)
 
 ## Flow Repository
 
